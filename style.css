@@ -1,0 +1,87 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(135deg, #1a1a1a, #333333); /* Dark gradient background */
+    color: #ffffff; /* White text color */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent dark background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside container */
+    margin-top: 20px; /* Space above container */
+}
+
+/* Header Styling */
+h1 {
+    color: #ffcc00; /* Bright yellow color */
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.5); /* Glow effect */
+    text-align: center; /* Centered text */
+    margin-bottom: 20px; /* Space below header */
+}
+
+/* Form Styling */
+form {
+    margin-bottom: 20px; /* Space below form */
+}
+
+.form-control {
+    background-color: #333333; /* Dark background */
+    color: #ffffff; /* White text color */
+    border: 1px solid #555555; /* Dark border */
+}
+
+.form-control::placeholder {
+    color: #cccccc; /* Light gray placeholder text */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #004080; /* Darker border on hover */
+}
+
+/* Table Styling */
+.table {
+    color: #ffffff; /* White text color */
+    background-color: #2a2a2a; /* Dark table background */
+    border: 1px solid #444444; /* Dark border */
+    margin-top: 20px; /* Space above table */
+}
+
+.table th {
+    background-color: #444444; /* Darker header background */
+    color: #ffffff; /* White text color */
+}
+
+.table td {
+    border-top: 1px solid #555555; /* Light border between rows */
+}
+
+/* Pagination Styling */
+.pagination {
+    justify-content: center; /* Center pagination */
+}
+
+.pagination .page-item .page-link {
+    color: #ffffff; /* White text color */
+    background-color: #333333; /* Dark background */
+    border-color: #555555; /* Dark border */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff; /* Active page background color */
+    border-color: #007bff; /* Active page border color */
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #555555; /* Darker background on hover */
+    border-color: #777777; /* Darker border on hover */
+}
