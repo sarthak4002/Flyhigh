@@ -54,10 +54,14 @@ price-data: Choose airline accordingly on the basis of their price and reviews g
 ### Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+Project output:
 ![Screenshot 2024-09-16 042616](https://github.com/user-attachments/assets/6db1c070-7f0f-4887-b386-cf8f4f4047a4)
 
+Project when filter section is used for "landed" flights:
 ![Screenshot 2024-09-16 042737](https://github.com/user-attachments/assets/4848ee32-26aa-434e-a336-2c1044743ea6)
 
+How the API Key is used and parent site of API Key,Also limited amount of data usage can be seen which can be fixed by paid API or Data scrapping from site directly:
 ![Screenshot 2024-09-16 042911](https://github.com/user-attachments/assets/651936d5-2f54-4a55-96a6-774e98ee6968)
 =======
 # Flyhigh
